@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Bahnschrift ,"Arial Unicode MS" ;
+}
+.products{
+    width: 80%;
+    margin: 20px auto;
+    padding: 50px;
+    border: dodgerblue 2px solid;
+}
+.products p{
+    color: darkgray;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.products h2{
+    color: black;
+    margin-top: 10px;
+}
+.products2{
+    text-align: center;
+    margin: 30px auto;
+    border: lightgray 2px solid;
+}
+.salePrice{
+    color: green;
+    margin-right: 5px;
+}
+.originalPrice{
+    color: red;
+    font-size: 12px;
+}
+.item{
+    text-align: left;
+    float: left;
+    width: 23.1%;
+    margin: 10px;
+    padding: 10px;
+    border: lightgray 2px solid;
+}
+.clearfix{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+.cartSvg{
+    margin: 0 15px;
+}
+.cartButton{
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    width: 80%;
+    padding: 5px 0;
+    fill: white;
+    border: dodgerblue 2px solid;
+}
+.heartButton{
+    text-align: center;
+    background-color: white;
+    width: 15%;
+    padding: 7px 5px 5px;
+    margin-right: 5px;
+    fill: dodgerblue;
+    border: dodgerblue 2px solid;
+}
+svg{
+    width: 15px;
+    font-size: 10px;
+}
